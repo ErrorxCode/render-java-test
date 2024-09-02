@@ -1,8 +1,8 @@
 FROM openjdk:11-jre-slim
 
-COPY SparkJava.jar app.jar
-
 WORKDIR /app
+
+COPY SparkJava.jar app.jar
 
 EXPOSE 1000
 
